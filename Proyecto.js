@@ -129,9 +129,9 @@ if (edad >= 18 && edad <= 65) {
   document.write('Precio del seguro: ' + precioBase + '<br>');
   document.write('Comisión: ' + comision + '<br>');
   document.write('Recargos: ' + recargos + '<br>');
-//document.write('     ' + 'Asegurado: ' + recAseg + '<br>');
-//document.write('     ' + 'Conyuge: ' + recCony + '<br>');
-//document.write('     ' + 'Hijos: ' + recHijo + '<br><br>');
+  document.write('     ' + 'Asegurado: ' + recAseg + '<br>');
+  document.write('     ' + 'Conyuge: ' + recCony + '<br>');
+  document.write('     ' + 'Hijos: ' + recHijo + '<br><br>');
   document.write('Total a pagar: ' + totalPagar + '<br><br>');
   document.write("Datos ingresados con éxito.")
 }else {
