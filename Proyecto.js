@@ -118,22 +118,21 @@ if (edad >= 18 && edad <= 65) {
 
   // Sumamos el total a pagar, precio base, comisión y recargos
   totalPagar = precioBase + comision + recargos;
-
+  document.write('Bienvenidos a Seguros TK-U' + '<br><br>');
   document.write('Nombre: ' + nombreCompleto + '<br>');
   document.write('Fecha de nacimiento: ' + diaNacimiento + '/' + mesNacimiento + '/'+ anioNacimiento + '<br>');
   document.write('Edad: ' + edad + '<br>');
   document.write('Conyuge: ' + conyuge + ' <br>');
   document.write('Edad del conyuge: ' + edadconyuge + '<br>');
   document.write('Hijos menores de 21 años: ' + cantidadHijos + ' <br><br>');
-
-  document.write('Precio del seguro: ' + precioBase + '<br>');
-  document.write('Comisión: ' + comision + '<br>');
-  document.write('Recargos: ' + recargos + '<br>');
-  document.write('     ' + 'Asegurado: ' + recAseg + '<br>');
-  document.write('     ' + 'Conyuge: ' + recCony + '<br>');
-  document.write('     ' + 'Hijos: ' + recHijo + '<br><br>');
-  document.write('Total a pagar: ' + totalPagar + '<br><br>');
-  document.write("Datos ingresados con éxito.")
+  document.write('Precio del seguro: Q. ' + precioBase + '<br>');
+  document.write('Comisión: Q. ' + comision + '<br>');
+  document.write('Cargos por edad : Q. ' + recAseg + '<br>');
+  document.write('Cargos por conyuge: Q. ' + recCony + '<br>');
+  document.write('Cargos por hijos: Q. ' + recHijo + '<br><br>');
+  document.write('____________________________________________' + '<br>');
+  document.write('Total a pagar: Q. ' + totalPagar + '<br><br>');
+  document.write("Datos ingresados con éxito, gracias por preferirnos.")
 }else {
   alert("No se le puede asegurar.");
 }
